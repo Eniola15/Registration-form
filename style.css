@@ -1,0 +1,137 @@
+
+main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url("bg-intro-desktop.png");
+    background-attachment: fixed;
+    background-color: rgb(243, 118, 73);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    border: 2px;
+}
+
+h3 {
+    font-size: 42px;;
+}
+.class-one {
+    font-size: 20px;
+    color: rgb(235, 229, 229);
+    font-family: poppins;
+    margin-top: 50px;
+}
+
+.head {
+    margin: 50px 20px 20px 20px;
+    padding: 50px;
+    color: white;
+}
+
+#one {
+    font-family: bold;
+    font-size: 20px;
+}
+
+.fieldset-one {
+    border-radius: 10px;
+    background-color: rgb(163, 66, 163);
+    padding: 5px;
+    width: 143%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.fieldset-two {
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    margin: 0px 5px 5px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom {
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+}
+
+.form {
+    height: 100%;
+    place-items: center;
+    border-radius: 10px;
+    padding: 50px;
+    width: 110%;
+    margin: 0px 0px 0px 0px;
+    justify-self: center;
+   
+}
+
+.one {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.two {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+.three {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.four {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+
+}
+
+.five {
+    width: 90%;
+    padding: 8px;
+    text-align: center;
+    background-color: green;
+    color: rgb(223, 226, 223);
+    margin: 0px 20px 0px 20px;
+}
+
+.six {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+ 
+}
+
+#two {
+    color: red;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        width: 100%;
+    }
+	}
+
+ @media screen and (min-width: 375px) {
+    body {
+           width: 100%;
+    }
+    }
